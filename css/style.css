@@ -4,12 +4,38 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: #1e2d3b;
+    padding-top: 100px;
+}
 
 /*// Utility */
+.container {
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+}
+/* Bg-color */
+.bg-light-blue {
+    background-color: #2e3a46;
+}
 
+.bg-grey {
+    background-color: #808080;
+}
 
 /*// Body */
 /** Header */
-
+header {
+    height: 80px;
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+} 
+#logo {
+    height: 60px;
+}
 
 /** Main */
